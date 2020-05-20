@@ -7,3 +7,4 @@
 
     - name: Execute script on server
       script: test_script.sh
+
