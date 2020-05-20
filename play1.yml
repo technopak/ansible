@@ -10,7 +10,7 @@
 
 -   name: Play 2
     hosts: localhost
-	tasks:
+    tasks:
 
     - name: Install nginx service 
       apt:
