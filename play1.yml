@@ -7,13 +7,3 @@
 
     - name: Execute script on server
       script: test_script.sh
-
-    - name: Install nginx service 
-      apt:
-        name: nginx
-        state: present
-
-    - name: Start nginx server
-      service:
-        name: nginx
-        state: started
