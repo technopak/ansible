@@ -8,10 +8,6 @@
     - name: Execute script on server
       script: test_script.sh
 
--   name: Play 2
-    hosts: localhost
-    tasks:
-
     - name: Install nginx service 
       apt:
         name: nginx
