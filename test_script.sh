@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Script testing...
+#   on the mac too...
 
 uname -a
 
